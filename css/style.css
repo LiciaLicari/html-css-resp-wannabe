@@ -128,22 +128,11 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
- @media screen and (max-width: 1023px) {
+ @media screen and (max-width:768px) {
     .container {
-        max-width: 1024px;
-        display: flex;
-    }
-    h2 {
-        justify-content: center;
+        max-width: 768px;
+        width: 100%;   
     }
  }
 
- @media screen and (max-width: 767px) {
-    .container {
-        max-width: 768px;
-        display: flex;
-    }
-    h2 {
-        justify-content: center;
-    }
- }
+ 
